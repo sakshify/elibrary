@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SNDT Library</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<h3>add books here</h3>
+    <form action="/addbook" method="post"> 
+        {%csrf_token%}
+        
+
+        <label for="">Book ID</label>
+        <input type="text" id="Book_id" name="Book_id" >
+        <br>
+
+        <label for="">Book Name</label>
+        <input type="text" id="Book_name" name="Book_name" >
+        <br>
+
+        <label for="">Aisle No</label>
+        <input type="number" id="Aisle_number" name="Aisle_number" >
+        <br>
+
+        <button type="submit">Click to Add</button>
+        <button type="submit"><a href="/login ">Back</a></button>
+
+
+
+    </form>
+    
+  </body>
+</html>
