@@ -1,0 +1,4 @@
+1) Created a database in mysql named library 
+2) "User" table were used to record admin details and table "books" were used to store all the book details
+3) In views.py functions created for the login and signup of admin were signup,login,logout and it was working successfully.
+4) Functions for the library were addbook and showbooks. 
